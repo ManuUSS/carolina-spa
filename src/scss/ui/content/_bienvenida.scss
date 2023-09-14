@@ -3,5 +3,8 @@
 
 .bienvenida {
     text-align: center;
-
+    
+    &__heading {
+        @include m.headingCursiva;
+    }
 }
