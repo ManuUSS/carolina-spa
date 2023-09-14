@@ -6,5 +6,8 @@
     padding: .3rem 0;
     margin: 2rem 0;
 
-    
+    &__border {
+        border-block: 2px dashed v.$blanco;
+        padding: 1.7rem 0;
+    }
 }
