@@ -45,6 +45,11 @@
         font-size: 3.4rem;
         padding: 2rem;
     }
+    
+    &__enlace {
+        @include m.boton(v.$secundario, v.$blanco);
+        display: block;
+    }
 
     
 }
