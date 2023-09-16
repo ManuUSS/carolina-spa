@@ -33,6 +33,12 @@
         }
     }
 
+    &__contenido {
+        max-width: 90%;
+        margin: 0 auto;
+        background-color: v.$blanco;
+        transform: translateY(-5rem);
+    }
     
 
     
