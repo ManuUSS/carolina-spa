@@ -16,6 +16,7 @@
     &:last-of-type {
         margin-bottom: 0;
     }
+    
     @include m.tablet { 
         max-width: unset;
         margin: 0;
