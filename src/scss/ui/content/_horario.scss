@@ -28,6 +28,12 @@
     &__heading {
         @include m.heading;
     }
+    
+    &__texto {
+        font-size: 2.2rem;
+        line-height: 1.8;
+        text-align: center;
+    }
 
 }
 
