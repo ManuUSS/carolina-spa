@@ -56,5 +56,10 @@
             background-color: darken(v.$primario, 10%);
         }
     }
+    
+    &__td {
+        padding: 1rem;
+        font-size: 2.2rem;
+    }
 }
 
