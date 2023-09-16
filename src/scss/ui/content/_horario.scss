@@ -43,6 +43,8 @@
     text-align: center;
     border-collapse: collapse;
 
-    
+    &__thead {
+        background-color: v.$secundario;
+    }
 }
 
