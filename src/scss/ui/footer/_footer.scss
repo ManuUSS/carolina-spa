@@ -10,5 +10,15 @@
         }
     }
 
+    &__widget {
+        text-align: center;
+ 
+        &:nth-child(3) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+     }
+     
     
 }
