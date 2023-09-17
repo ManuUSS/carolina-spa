@@ -40,5 +40,11 @@
             transform: scale(1.2);
         }
     }
+
+    &__nombre {
+        @include m.heading;
+        font-size: 2.4rem;
+        color: v.$secundario;
+    }
     
 }
