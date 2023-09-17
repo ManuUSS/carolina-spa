@@ -9,4 +9,10 @@
     padding: 5rem 0;
     text-align: center;
 
+    &__heading {
+        @include m.heading;
+        color: v.$blanco;
+        font-size: 6rem;
+    }
+
 }
