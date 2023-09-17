@@ -3,5 +3,12 @@
 
 .footer {
     padding-top: 5rem;
+
+    &__grid {
+        @include m.tablet { 
+            @include m.grid(3, 2rem);
+        }
+    }
+
     
 }
