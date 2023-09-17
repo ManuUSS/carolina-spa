@@ -30,5 +30,15 @@
     &__mask {
         overflow: hidden;
     }
+
+    
+    &__imagen {
+        width: 100%;
+        transition-property: transform;
+        transition-duration: 300ms;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
     
 }
